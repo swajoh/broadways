@@ -7,14 +7,12 @@ h1{
   font-weight: bold;
   color: white;
 }
-#nav{
+.header p a{
   font-family: Helvetica;
   font-size: 18px;
   color:white;
 }
-.header,.design{
-  background-image: url("images/the-flatiron-building.png");
-}
+
 h2{
   font-family: Helvetica;
   font-size: 32px;
@@ -34,10 +32,12 @@ p{
   font-size: 23px;
   font-weight: bold;
   color: white;
+  background-image: url('./resources/images/the-flatiron-building.png');
 }
 .footer{
   font-family: Helvetica;
   font-size: 11px;
   background-color: dimgray;
   color: white;
+  text-align: left;
 }
